@@ -4,7 +4,7 @@
 ### Features:
 
 - Map incoming midi to separate midi channels for polyphonic playback
-- Mirror track parameter changes to other tracks
+- Mirror track parameter changes to other tracks (changing synth/filter etc parameter on one track will change it for all tracks)
 
 ### Usage:
 
@@ -17,7 +17,10 @@ Add your midi input to list of inputs in the script.
 
 Play some notes, polyphony is mapped to tracks 1-8 by default.
 
-For sound mirroring to work, set `Settings -> Midi config -> Channels -> FX Control CH` to 13 on Syntakt.
+For track parameter mirroring to work, on Syntakt, set:
+
+`Settings -> Midi config -> Channels -> FX Control CH` to 13
+`Settings -> Midi config -> Port config -> Encoder dest` to INT+EXT
 
 Demo
 
