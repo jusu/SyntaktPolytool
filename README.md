@@ -20,6 +20,7 @@ Play some notes, polyphony is mapped to tracks 1-8 by default.
 For track parameter mirroring to work, on Syntakt, set:
 
 `Settings -> Midi config -> Channels -> FX Control CH` to 13
+
 `Settings -> Midi config -> Port config -> Encoder dest` to INT+EXT
 
 Demo
